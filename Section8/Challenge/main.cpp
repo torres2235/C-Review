@@ -38,7 +38,25 @@
 using namespace std;
 
 int main() {
-
+    const int dollar {100};
+    const int quarter {25};
+    const int dime {10};
+    const int nickel {5};
+    int cents {};
+    
+    cout << "Enter an amount in cents : ";
+    cin >> cents;
+    
+    cout << "You can provide this change as follows:" << endl;
+    cout << "dollars   : " << cents/dollar << endl;
+    cents %= dollar;
+    cout << "quarters  : " << cents/quarter << endl;
+    cents %= quarter;
+    cout << "dimes     : " << cents/dime << endl;
+    cents %= dime;
+    cout << "nickel    : " << cents/nickel << endl;
+    cents %= nickel;
+    cout << "pennies   : " << cents << endl;
     cout << endl;
     return 0;
 }
