@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ SwitchEnum - Debug ]----------"
-	@cd "SwitchEnum" && "$(MAKE)" -f  "SwitchEnum.mk"
+	@echo "----------Building project:[ Challenge - Debug ]----------"
+	@cd "Challenge" && "$(MAKE)" -f  "Challenge.mk"
 clean:
-	@echo "----------Cleaning project:[ SwitchEnum - Debug ]----------"
-	@cd "SwitchEnum" && "$(MAKE)" -f  "SwitchEnum.mk" clean
+	@echo "----------Cleaning project:[ Challenge - Debug ]----------"
+	@cd "Challenge" && "$(MAKE)" -f  "Challenge.mk" clean

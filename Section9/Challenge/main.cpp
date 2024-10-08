@@ -68,7 +68,18 @@ using namespace std;
 
 int main() {
     
-    cout << "Hello world" << endl;
+    char choice {};
+    do {
+        cout << "P - Print numbers" << endl;
+        cout << "A - Add a number" << endl;
+        cout << "M - Display mean of the numbers" << endl;
+        cout << "S - Display the smallest number" << endl;
+        cout << "L - Display the largest number" << endl;
+        cout << "Q - Quit" << endl;
+        cout << "Enter your choice:  ";
+        cin >> choice;
+    } while(choice != 'q' && choice != 'Q');
+    
     return 0;
 }
 
