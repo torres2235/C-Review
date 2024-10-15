@@ -30,13 +30,28 @@ Reuse existing functionality in libraries and in the std::string class!
 */
 
 #include <iostream>
+using namespace std;
 
 int main() {
     
     string alphabet {"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"};
     string key  {"XZNLWEBGJHQDYVTKFUOMPCIASRxznlwebgjhqdyvtkfuompciasr"};
     
+    //cout << alphabet.find("f");
+    string user_string {};
+    string encrypted_string {};
+    cout << "Input your string to be encrypted" << endl;
+    cin >> user_string;
     
+    for(auto letter : user_string) {
+        if(letter == ' ') {
+            encrypted_string += ' ';
+        } else {
+            encrypted_string += key[alphabet.find(letter)];
+        };
+    }
+    
+    cout << "Encrypted string: " << encrypted_string;
     cout << endl;
     return 0;
 }
