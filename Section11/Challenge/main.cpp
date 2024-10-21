@@ -99,7 +99,7 @@ using namespace std;
 void display_menu();
 char get_selection();
 void print_numbers(vector<int>);
-void add_number(vector<int> &n);
+void add_number(vector<int> &n); //need pointer here so orignal vector is also changed
 void calculate_mean(vector<int>);
 void find_smallest(vector<int>);
 void find_largest(vector<int>);
