@@ -2,7 +2,7 @@
 <CodeLite_Workspace Name="Section11" Database="" Version="10.0.0">
   <Project Name="Math" Path="Math/Math.project" Active="No"/>
   <Project Name="Random" Path="Random/Random.project" Active="No"/>
-  <Project Name="FunctionDefinitions" Path="FunctionDefinitions/FunctionDefinitions.project" Active="Yes"/>
+  <Project Name="FunctionDefinitions" Path="FunctionDefinitions/FunctionDefinitions.project" Active="No"/>
   <Project Name="FunctionPrototypes" Path="FunctionPrototypes/FunctionPrototypes.project" Active="No"/>
   <Project Name="FunctionParameters" Path="FunctionParamters/FunctionParamters.project" Active="No"/>
   <Project Name="DefaultArguments" Path="DefaultArguments/DefaultArguments.project" Active="No"/>
@@ -12,7 +12,7 @@
   <Project Name="ScopeExample" Path="ScopeExample/ScopeExample.project" Active="No"/>
   <Project Name="Factorial" Path="Factorial/Factorial.project" Active="No"/>
   <Project Name="Fibonacci" Path="Fibonacci/Fibonacci.project" Active="No"/>
-  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
   <Project Name="ChallengeSolution" Path="ChallengeSolution/ChallengeSolution.project" Active="No"/>
   <Project Name="HowFunctionCallsWork" Path="HowFunctionCallsWork/HowFunctionCallsWork.project" Active="No"/>
   <BuildMatrix>
