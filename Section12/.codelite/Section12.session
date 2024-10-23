@@ -1,12 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\frank\Desktop\CPPExamples\Section12\Section12.workspace">
+<Session Name="C:\Users\Torre\Workspaces\CPP-Review\Section12\Section12.workspace">
   <int Value="0" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section12\Section12.workspace" Name="m_workspaceName"/>
-  <TabInfoArray Name="TabInfoArray"/>
+  <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section12\Section12.workspace" Name="m_workspaceName"/>
+  <TabInfoArray Name="TabInfoArray">
+    <TabInfo>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section12\Challenge\main.cpp" Name="FileName"/>
+      <int Value="69" Name="FirstVisibleLine"/>
+      <int Value="38" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+  </TabInfoArray>
   <SerializedObject Name="m_breakpoints">
-    <long Value="1" Name="Count"/>
+    <long Value="2" Name="Count"/>
     <SerializedObject Name="Breakpoint0">
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section12\Debugger\main.cpp" Name="file"/>
+      <wxString Value="C:/Users/frank/Desktop/CPPExamples/Section12/Debugger/main.cpp" Name="file"/>
       <int Value="16" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
       <wxString Value="" Name="memory_address"/>
@@ -17,9 +25,26 @@
       <bool Value="0" Name="regex"/>
       <bool Value="0" Name="is_temp"/>
       <bool Value="1" Name="is_enabled"/>
-      <int Value="0" Name="ignore_number"/>
+      <long Value="0" Name="ignore_number"/>
+      <wxString Value="" Name="conditions"/>
+      <int Value="0" Name="origin"/>
+    </SerializedObject>
+    <SerializedObject Name="Breakpoint1">
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section12\Debugger\main.cpp" Name="file"/>
+      <int Value="16" Name="lineno"/>
+      <wxString Value="" Name="function_name"/>
+      <wxString Value="" Name="memory_address"/>
+      <int Value="1" Name="bp_type"/>
+      <int Value="0" Name="watchpoint_type"/>
+      <wxString Value="" Name="watchpt_data"/>
+      <CData Name="commandlist"/>
+      <bool Value="0" Name="regex"/>
+      <bool Value="0" Name="is_temp"/>
+      <bool Value="1" Name="is_enabled"/>
+      <long Value="0" Name="ignore_number"/>
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
   </SerializedObject>
+  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc;*.plist;*.txt" Name="m_findInFilesMask"/>
 </Session>
