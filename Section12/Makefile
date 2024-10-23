@@ -1,8 +1,8 @@
 .PHONY: clean All
 
 All:
-	@echo "----------Building project:[ SimplePointers - Debug ]----------"
-	@cd "SimplePointers" && "$(MAKE)" -f  "SimplePointers.mk"
+	@echo "----------Building project:[ Challenge - Debug ]----------"
+	@cd "Challenge" && "$(MAKE)" -f  "Challenge.mk"
 clean:
-	@echo "----------Cleaning project:[ SimplePointers - Debug ]----------"
-	@cd "SimplePointers" && "$(MAKE)" -f  "SimplePointers.mk" clean
+	@echo "----------Cleaning project:[ Challenge - Debug ]----------"
+	@cd "Challenge" && "$(MAKE)" -f  "Challenge.mk" clean

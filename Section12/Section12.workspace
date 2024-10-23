@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Section12" Database="" Version="10.0.0">
-  <Project Name="SimplePointers" Path="SimplePointers/SimplePointers.project" Active="Yes"/>
+  <Project Name="SimplePointers" Path="SimplePointers/SimplePointers.project" Active="No"/>
   <Project Name="Dereference" Path="Dereference/Dereference.project" Active="No"/>
   <Project Name="DynamicMemory" Path="DynamicMemory/DynamicMemory.project" Active="No"/>
   <Project Name="ArraysAndPointers" Path="AraysAndPointers/AraysAndPointers.project" Active="No"/>
@@ -11,7 +11,7 @@
   <Project Name="ReturnPointer" Path="ReturnPointer/ReturnPointer.project" Active="No"/>
   <Project Name="References" Path="References/References.project" Active="No"/>
   <Project Name="Debugger" Path="Debugger/Debugger.project" Active="No"/>
-  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
   <Project Name="ChallengeSolution" Path="ChallengeSolution/ChallengeSolution.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">

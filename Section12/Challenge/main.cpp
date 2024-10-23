@@ -40,6 +40,10 @@
 
 using namespace std;
 
+void print(int arr[], size_t);
+
+int* apply_all(int arr1[], size_t, int arr2[], size_t);
+
 int main() {
     const size_t array1_size {5};
     const size_t array2_size {3};
@@ -64,3 +68,26 @@ int main() {
     return 0;
 }
 
+void print(int arr[], size_t size) {
+    cout << "[ ";
+    for(int i {0}; i < size; i++) {
+        cout << arr[i]<< " ";
+    }
+    cout << "]" << endl;
+}
+
+int* apply_all(int arr1[], size_t size1, int arr2[], size_t size2) {
+    size_t new_size {size1 * size2};
+    int *new_array {nullptr};
+    new_array = new int[new_size];
+    
+    int new_array_pos {0};
+    for(size_t i {0}; i < size1; i++) {
+        for(size_t j {0}; j < size2; j++) {
+            new_array[new_array_pos] = arr1[i] * arr2[j];
+            new_array_pos++;
+        }
+    }
+    
+    return new_array;
+}
