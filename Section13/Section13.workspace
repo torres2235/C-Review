@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Section13" Database="" Version="10.0.0">
-  <Project Name="DeclareClassAndObjects" Path="DeclareClassAndObjects/DeclareClassAndObjects.project" Active="Yes"/>
+  <Project Name="DeclareClassAndObjects" Path="DeclareClassAndObjects/DeclareClassAndObjects.project" Active="No"/>
   <Project Name="AccessingClassMembers" Path="AccessingClassMembers/AccessingClassMembers.project" Active="No"/>
   <Project Name="AccessModifiers" Path="AccessModifiers/AccessModifiers.project" Active="No"/>
   <Project Name="ImplementingMethods1" Path="ImplementingMethods/ImplementingMethods.project" Active="No"/>
@@ -18,7 +18,7 @@
   <Project Name="StaticClassMembers" Path="StaticClassMembers/StaticClassMembers.project" Active="No"/>
   <Project Name="Friends" Path="Friends/Friends.project" Active="No"/>
   <Project Name="ConstInClasses" Path="ConstInClasses/ConstInClasses.project" Active="No"/>
-  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="No"/>
+  <Project Name="Challenge" Path="Challenge/Challenge.project" Active="Yes"/>
   <Project Name="ChallengeSolution" Path="ChallengeSolution/ChallengeSolution.project" Active="No"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">

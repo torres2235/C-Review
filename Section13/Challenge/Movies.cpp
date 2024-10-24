@@ -31,8 +31,18 @@ Movies::~Movies() {
     and add that movie object to the movies vector and return true
     *********************************************************************/
 bool Movies::add_movie(std::string name, std::string rating, int watched) {
-    // you implement this method
-    return false;
+    size_t size = movies.size();
+    
+    for(size_t i {0}; i < size; i ++) {  // look through movies vector if movie is already in
+        if(name == movies[i].get_name()) {
+            return false;  // if movie already exists, return false
+        }
+    }
+    
+    Movie new_movie(name, rating, watched);  // if movie is not in vector, add it and return true
+    movies.push_back(new_movie);
+    
+    return true;
 }
 
  /*************************************************************************
@@ -47,8 +57,16 @@ bool Movies::add_movie(std::string name, std::string rating, int watched) {
     provided exists to increment
     *********************************************************************/
 bool Movies::increment_watched(std::string name) {
-   // you implement this method
-   return false;
+   size_t size = movies.size();
+    
+    for(size_t i {0}; i < size; i ++) {  // look through movies vector if movie is already in
+        if(name == movies[i].get_name()) {
+            movies[i].increment_watched();
+            return true;  // if movie already exists, increment and return true 
+        }
+    }
+    
+   return false;  // otherwise return false
 }
 
 /*************************************************************************
@@ -59,5 +77,15 @@ bool Movies::increment_watched(std::string name) {
     object displays itself
     *********************************************************************/
 void Movies::display() const {
-   // You implement this method
+   
+    if(movies.empty()) {
+        std::cout << "Sorry, no movies to display\n" << std::endl;
+    } else {
+        size_t size = movies.size();
+        std::cout << "\n================================================" << std::endl;
+        for(size_t i {0}; i < size; i ++) {  // look through movies vector if movie is already in
+            std::cout << movies[i].get_name() << ", " << movies[i].get_rating() << ", " << movies[i].get_watched() << std::endl;
+        }
+        std::cout << "================================================\n" << std::endl;
+    }
 }
