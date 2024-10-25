@@ -18,6 +18,20 @@ public:
     Mystring &operator=(const Mystring &rhs);     // Copy assignment
     Mystring &operator=(Mystring &&rhs);           // Move assignment
     
+    //===========================================================================================
+    bool operator==(const Mystring &rhs) const;  // equality operator overload
+    bool operator!=(const Mystring &rhs) const;  // inequality operator overload
+    bool operator<(const Mystring &rhs) const;   // lexically less-than overload
+    bool operator>(const Mystring &rhs) const;   // lexically greater-than overload
+    Mystring operator-() const;                  // unary minus operator overload
+    Mystring operator+(const Mystring &rhs);     // plus operator overload
+    Mystring operator+=(const Mystring &rhs);    // += operator overload
+    Mystring operator*(int rhs);                 // unary * operator overload
+    Mystring operator*=(int rhs);                // += operator overload
+    Mystring operator++();                       // preincrement operator overload
+    Mystring operator++(int);                    // postincrement operator overload
+    //===========================================================================================
+    
     void display() const;
     
     int get_length() const;                                      // getters

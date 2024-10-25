@@ -90,3 +90,88 @@ std::istream &operator>>(std::istream &in, Mystring &rhs) {
     return in;
 }
 
+//===========================================================================================
+//overloaded equality operator
+bool Mystring::operator==(const Mystring &rhs) const {
+    return (std::strcmp(str, rhs.str) == 0);
+}
+
+//overloaded inequality operator
+bool Mystring::operator!=(const Mystring &rhs) const {
+    return (std::strcmp(str, rhs.str) != 0);
+}
+
+//overloaded less-that operator
+bool Mystring::operator<(const Mystring &rhs) const {
+    return (str < rhs.str);
+}
+
+//overloaded greater-that operator
+bool Mystring::operator>(const Mystring &rhs) const {
+    return (str > rhs.str);
+}
+
+//overloaded unary minus operator   (lower case conversion)
+Mystring Mystring::operator-() const{
+    char *buff = new char[get_length() + 1];
+    std::strcpy(buff, str);
+    for(size_t i {0}; i < std::strlen(buff); i++) {
+        buff[i] = std::tolower(buff[i]);
+    }
+    Mystring temp {buff};
+    delete [] buff;
+    return temp;
+}
+
+//overloaded unary plus operator    (concatination)
+Mystring Mystring::operator+(const Mystring &rhs) {
+    char *buff = new char[get_length() + std::strlen(rhs.str) + 1];
+    std::strcpy(buff, str);
+    std::strcat(buff, rhs.str);
+    Mystring temp {buff};
+    delete [] buff;
+    return temp;
+}
+
+//overloaded += operator    (concatination and assignment)
+Mystring Mystring::operator+=(const Mystring &rhs) {
+    *this = *this + rhs.str;
+    return *this;
+}
+
+//overladed * operator
+Mystring Mystring::operator*(int rhs) {
+    char *buff = new char[get_length() * rhs + 1];
+    std::strcpy(buff, str);
+    for(int i {1}; i < rhs; i++) {
+        std::strcat(buff, str);
+    }
+    Mystring temp {buff};
+    delete [] buff;
+    return temp;
+}
+
+//overloaded *= operator 
+Mystring Mystring::operator*=(int rhs) {
+    Mystring curr {*this};
+    for(int i {1}; i < rhs; i++) {
+        *this += curr;
+    }
+    return *this;
+}
+
+//overloaded preincrement operator
+Mystring Mystring::operator++() {
+    for(size_t i {0}; i < std::strlen(str); i++) {
+        str[i] = std::toupper(str[i]);
+    }
+    return str;
+}
+
+//overloaded postincrement operator
+Mystring Mystring::operator++(int) {
+    Mystring temp (*this);       // make a copy
+   operator++();                    // call pre-increment - make sure you call preincrement!
+   return temp;                     // return the old value
+}
+//===========================================================================================

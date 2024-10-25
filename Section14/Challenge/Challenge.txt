@@ -1,1 +1,1 @@
-./Debug/main.cpp.o ./Debug/Mystring.cpp.o   
+./Debug/Mystring.cpp.o ./Debug/main.cpp.o   
