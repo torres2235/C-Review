@@ -1,26 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\frank\Desktop\CPPExamples\Section14\Section14.workspace">
-  <int Value="2" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section14\Section14.workspace" Name="m_workspaceName"/>
+<Session Name="C:\Users\Torre\Workspaces\CPP-Review\Section14\Section14.workspace">
+  <int Value="1" Name="m_selectedTab"/>
+  <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section14\Section14.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section14\Challenge-Solution2\Mystring.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="6" Name="CurrentLine"/>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section14\Challenge\Description.txt" Name="FileName"/>
+      <int Value="48" Name="FirstVisibleLine"/>
+      <int Value="27" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section14\Challenge-Solution2\Mystring.cpp" Name="FileName"/>
-      <int Value="147" Name="FirstVisibleLine"/>
-      <int Value="155" Name="CurrentLine"/>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section14\Challenge\main.cpp" Name="FileName"/>
+      <int Value="2" Name="FirstVisibleLine"/>
+      <int Value="61" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section14\Challenge-Solution2\main.cpp" Name="FileName"/>
-      <int Value="12" Name="FirstVisibleLine"/>
-      <int Value="12" Name="CurrentLine"/>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section14\Challenge\Mystring.cpp" Name="FileName"/>
+      <int Value="157" Name="FirstVisibleLine"/>
+      <int Value="173" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section14\Challenge\Mystring.h" Name="FileName"/>
+      <int Value="19" Name="FirstVisibleLine"/>
+      <int Value="31" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -28,7 +35,7 @@
   <SerializedObject Name="m_breakpoints">
     <long Value="2" Name="Count"/>
     <SerializedObject Name="Breakpoint0">
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section14\Mystring-copy-assignment\main.cpp" Name="file"/>
+      <wxString Value="C:/Users/frank/Desktop/CPPExamples/Section14/Mystring-copy-assignment/main.cpp" Name="file"/>
       <int Value="10" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
       <wxString Value="" Name="memory_address"/>
@@ -39,12 +46,12 @@
       <bool Value="0" Name="regex"/>
       <bool Value="0" Name="is_temp"/>
       <bool Value="1" Name="is_enabled"/>
-      <int Value="0" Name="ignore_number"/>
+      <long Value="0" Name="ignore_number"/>
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
     <SerializedObject Name="Breakpoint1">
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section14\Mystring-start\Mystring.cpp" Name="file"/>
+      <wxString Value="C:/Users/frank/Desktop/CPPExamples/Section14/Mystring-start/Mystring.cpp" Name="file"/>
       <int Value="13" Name="lineno"/>
       <wxString Value="" Name="function_name"/>
       <wxString Value="" Name="memory_address"/>
@@ -55,9 +62,10 @@
       <bool Value="0" Name="regex"/>
       <bool Value="0" Name="is_temp"/>
       <bool Value="1" Name="is_enabled"/>
-      <int Value="0" Name="ignore_number"/>
+      <long Value="0" Name="ignore_number"/>
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
   </SerializedObject>
+  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc;*.plist;*.txt" Name="m_findInFilesMask"/>
 </Session>
