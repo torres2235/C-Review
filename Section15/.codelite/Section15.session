@@ -1,47 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<Session Name="C:\Users\frank\Desktop\CPPExamples\Section15\Section15.workspace">
-  <int Value="1" Name="m_selectedTab"/>
-  <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\Section15.workspace" Name="m_workspaceName"/>
+<Session Name="C:\Users\Torre\Workspaces\CPP-Review\Section15\Section15.workspace">
+  <int Value="5" Name="m_selectedTab"/>
+  <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section15\Section15.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\RedefiningBaseClassMethods\main.cpp" Name="FileName"/>
-      <int Value="21" Name="FirstVisibleLine"/>
-      <int Value="42" Name="CurrentLine"/>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section15\Challenge\Description.txt" Name="FileName"/>
+      <int Value="9" Name="FirstVisibleLine"/>
+      <int Value="0" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\ChallengeSolution\Trust_Account.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section15\Challenge\main.cpp" Name="FileName"/>
+      <int Value="40" Name="FirstVisibleLine"/>
+      <int Value="57" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section15\Challenge\Account_Util.cpp" Name="FileName"/>
+      <int Value="84" Name="FirstVisibleLine"/>
+      <int Value="101" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section15\Challenge\Account_Util.h" Name="FileName"/>
       <int Value="3" Name="FirstVisibleLine"/>
-      <int Value="12" Name="CurrentLine"/>
-      <wxArrayString Name="Bookmarks"/>
-      <IntVector Name="CollapsedFolds"/>
-    </TabInfo>
-    <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\ChallengeSolution\Trust_Account.h" Name="FileName"/>
-      <int Value="0" Name="FirstVisibleLine"/>
       <int Value="6" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\ChallengeSolution\main.cpp" Name="FileName"/>
-      <int Value="82" Name="FirstVisibleLine"/>
-      <int Value="97" Name="CurrentLine"/>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section15\Challenge\Trust_Account.h" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="5" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\ChallengeSolution\Savings_Account.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section15\Challenge\Trust_Account.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="11" Name="CurrentLine"/>
+      <int Value="16" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
     <TabInfo>
-      <wxString Value="C:\Users\frank\Desktop\CPPExamples\Section15\ChallengeSolution\Account.cpp" Name="FileName"/>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section15\Challenge\Savings_Account.h" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="0" Name="CurrentLine"/>
+      <int Value="13" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="C:\Users\Torre\Workspaces\CPP-Review\Section15\Challenge\Savings_Account.cpp" Name="FileName"/>
+      <int Value="0" Name="FirstVisibleLine"/>
+      <int Value="15" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
@@ -60,9 +74,10 @@
       <bool Value="0" Name="regex"/>
       <bool Value="0" Name="is_temp"/>
       <bool Value="1" Name="is_enabled"/>
-      <int Value="0" Name="ignore_number"/>
+      <long Value="0" Name="ignore_number"/>
       <wxString Value="" Name="conditions"/>
       <int Value="0" Name="origin"/>
     </SerializedObject>
   </SerializedObject>
+  <wxString Value="*.c;*.cpp;*.cxx;*.cc;*.h;*.hpp;*.inc;*.mm;*.m;*.xrc;*.plist;*.txt" Name="m_findInFilesMask"/>
 </Session>
