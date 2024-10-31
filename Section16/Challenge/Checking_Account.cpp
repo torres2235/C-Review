@@ -13,8 +13,9 @@ bool Checking_Account::deposit(double amount) {
     return Account::deposit(amount);
 }
 
-std::ostream &operator<<(std::ostream &os, const Checking_Account &account) {
-    os << "[Checking_Account: " << account.name << ": " << account.balance  << "]";
-    return os;
+void Checking_Account::print(std::ostream &os) const {
+    os.precision(2);
+    os << std::fixed;   
+    os << "[Checking_Account: " << name << ": " << balance << "]";
 }
 
