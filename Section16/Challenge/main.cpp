@@ -13,27 +13,24 @@ using namespace std;
 int main() {
     cout.precision(2);
     cout << fixed;
-   
-    // Accounts
-    vector<Account> accounts;
-    accounts.push_back(Account {});
-    accounts.push_back(Account {"Larry"});
-    accounts.push_back(Account {"Moe", 2000} );
-    accounts.push_back(Account {"Curly", 5000} );
-    
-    display(accounts);
-    deposit(accounts, 1000);
-    withdraw(accounts,2000);
     
     // Savings 
 
-    vector<Savings_Account> sav_accounts;
-    sav_accounts.push_back(Savings_Account {} );
-    sav_accounts.push_back(Savings_Account {"Superman"} );
-    sav_accounts.push_back(Savings_Account {"Batman", 2000} );
-    sav_accounts.push_back(Savings_Account {"Wonderwoman", 5000, 5.0} );
+    vector<Account *> sav_accounts;
+    Account *a1 = new Savings_Account();
+    Account *a2 = new Savings_Account("Superman");
+    Account *a3 = new Savings_Account("Batman", 2000);
+    Account *a4 = new Savings_Account("Wonderwoman", 5000, 5.0);
+    sav_accounts.push_back(a1);
+    sav_accounts.push_back(a2);
+    sav_accounts.push_back(a3);
+    sav_accounts.push_back(a4);
+    
+    Savings_Account frank {"frank", 5000, 5.0};
 
     display(sav_accounts);
+    std::cout << frank << endl;
+/*
     deposit(sav_accounts, 1000);
     withdraw(sav_accounts,2000);
    
@@ -65,6 +62,7 @@ int main() {
     // All withdrawals should fail if there are too many withdrawals or if the withdrawl is > 20% of the balance
     for (int i=1; i<=5; i++)
         withdraw(trust_accounts, 1000);
+*/
     
 
     

@@ -2,12 +2,13 @@
 #include "Account_Util.h"
 
 // Displays Account objects in a  vector of Account objects 
-void display(const std::vector<Account> &accounts) {
+void display(const std::vector<Account *> &accounts) {
     std::cout << "\n=== Accounts===========================================" << std::endl;
-    for (const auto &acc: accounts) 
-        std::cout << acc << std::endl;
+    for (const auto acc: accounts) 
+        std::cout << *acc << std::endl;
 }
 
+/*
 // Deposits supplied amount to each Account object in the vector
 void deposit(std::vector<Account> &accounts, double amount) {
     std::cout << "\n=== Depositing to Accounts =================================" << std::endl;
@@ -122,3 +123,4 @@ void withdraw(std::vector<Trust_Account> &accounts, double amount) {
             std::cout << "Failed Withdrawal of " << amount << " from " << acc << std::endl;
     } 
 }
+*/

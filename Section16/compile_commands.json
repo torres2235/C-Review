@@ -183,6 +183,10 @@
   "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\UsingOverride",
   "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\UsingOverride\\main.cpp -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\UsingOverride\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
  }, {
+  "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Account_Util.cpp",
+  "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Account_Util.cpp -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Account_Util.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
   "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Account_Util.h",
   "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
   "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Account_Util.h -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Account_Util.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
@@ -191,17 +195,13 @@
   "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
   "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Trust_Account.cpp -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Trust_Account.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
  }, {
-  "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Trust_Account.h",
-  "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
-  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Trust_Account.h -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Trust_Account.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
- }, {
-  "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Savings_Account.cpp",
-  "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
-  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Savings_Account.cpp -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Savings_Account.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
- }, {
   "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Savings_Account.h",
   "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
   "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Savings_Account.h -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Savings_Account.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\I_Printable.h",
+  "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\I_Printable.h -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\I_Printable.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
  }, {
   "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Checking_Account.cpp",
   "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
@@ -219,13 +219,21 @@
   "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
   "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Account.h -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Account.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
  }, {
-  "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Account_Util.cpp",
-  "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
-  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Account_Util.cpp -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Account_Util.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
- }, {
   "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\main.cpp",
   "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
   "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\main.cpp -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\main.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Trust_Account.h",
+  "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Trust_Account.h -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Trust_Account.h.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Savings_Account.cpp",
+  "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Savings_Account.cpp -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\Savings_Account.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
+ }, {
+  "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\I_Printable.cpp",
+  "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge",
+  "command": "C:/mingw64/bin/g++.exe -c C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\I_Printable.cpp -o C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\Challenge\\I_Printable.cpp.o -target x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0 -IC:\\mingw64\\include\\c++\\14.2.0\\x86_64-w64-mingw32 -IC:\\mingw64\\include\\c++\\14.2.0\\backward -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include -IC:\\mingw64\\include -IC:\\mingw64\\lib\\gcc\\x86_64-w64-mingw32\\14.2.0\\include-fixed -IC:\\mingw64\\x86_64-w64-mingw32\\include -I. -I.  -std=c++14  -Wall  -g  -O0  -std=c++14  -Wall"
  }, {
   "file": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\VirtualFunctions\\main.cpp",
   "directory": "C:\\Users\\Torre\\Workspaces\\CPP-Review\\Section16\\VirtualFunctions",
