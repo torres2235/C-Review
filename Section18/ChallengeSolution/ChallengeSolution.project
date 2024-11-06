@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<CodeLite_Project Name="ChallengeSolution" Version="10.0.0" InternalType="User templates">
+<CodeLite_Project Name="ChallengeSolution" Version="11000" InternalType="User templates">
   <Plugins>
     <Plugin Name="qmake">
       <![CDATA[00010001N0005Debug000000000000]]>
@@ -7,6 +7,26 @@
   </Plugins>
   <Description/>
   <Dependencies/>
+  <VirtualDirectory Name="src">
+    <File Name="main.cpp"/>
+    <File Name="Account.cpp"/>
+    <File Name="Account.h"/>
+    <File Name="Account_Util.cpp"/>
+    <File Name="Account_Util.h"/>
+    <File Name="Checking_Account.cpp"/>
+    <File Name="Checking_Account.h"/>
+    <File Name="I_Printable.cpp"/>
+    <File Name="I_Printable.h"/>
+    <File Name="IllegalBalanceException.h"/>
+    <File Name="Savings_Account.cpp"/>
+    <File Name="Savings_Account.h"/>
+    <File Name="Trust_Account.cpp"/>
+    <File Name="Trust_Account.h"/>
+    <File Name="InsufficientFundsException.h"/>
+    <File Name="Description.txt"/>
+  </VirtualDirectory>
+  <Dependencies Name="Debug"/>
+  <Dependencies Name="Release"/>
   <Settings Type="Executable">
     <GlobalSettings>
       <Compiler Options="-std=c++14;-Wall" C_Options="" Assembler="">
@@ -97,24 +117,4 @@
       </Completion>
     </Configuration>
   </Settings>
-  <VirtualDirectory Name="src">
-    <File Name="main.cpp"/>
-    <File Name="Account.cpp"/>
-    <File Name="Account.h"/>
-    <File Name="Account_Util.cpp"/>
-    <File Name="Account_Util.h"/>
-    <File Name="Checking_Account.cpp"/>
-    <File Name="Checking_Account.h"/>
-    <File Name="I_Printable.cpp"/>
-    <File Name="I_Printable.h"/>
-    <File Name="IllegalBalanceException.h"/>
-    <File Name="Savings_Account.cpp"/>
-    <File Name="Savings_Account.h"/>
-    <File Name="Trust_Account.cpp"/>
-    <File Name="Trust_Account.h"/>
-    <File Name="InsufficientFundsException.h"/>
-    <File Name="Description.txt"/>
-  </VirtualDirectory>
-  <Dependencies Name="Debug"/>
-  <Dependencies Name="Release"/>
 </CodeLite_Project>
