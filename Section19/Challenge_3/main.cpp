@@ -31,6 +31,8 @@ int main() {
     std::cout << "The substring " << search << " was found " << found_count << " found times." << std::endl;
     
     std::cout << std::endl;
+    
+    play.close();
     return 0;
 }
 
