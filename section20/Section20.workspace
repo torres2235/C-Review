@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CodeLite_Workspace Name="Section20" Database="" Version="10.0.0">
   <Project Name="Macros" Path="Macros/Macros.project" Active="No"/>
-  <Project Name="FunctionTemplates" Path="FunctionTemplates/FunctionTemplates.project" Active="Yes"/>
+  <Project Name="FunctionTemplates" Path="FunctionTemplates/FunctionTemplates.project" Active="No"/>
   <Project Name="ClassTemplates" Path="ClassTemplates/ClassTemplates.project" Active="No"/>
   <Project Name="ClassTemplateArray" Path="ClassTemplateArray/ClassTemplateArray.project" Active="No"/>
   <Project Name="Iterators" Path="Iterators/Iterators.project" Active="No"/>
@@ -9,7 +9,7 @@
   <Project Name="Array" Path="Array/Array.project" Active="No"/>
   <Project Name="Vector" Path="Vector/Vector.project" Active="No"/>
   <Project Name="Deque" Path="Deque/Deque.project" Active="No"/>
-  <Project Name="Challenge_1" Path="Challenge_1/Challenge_1.project" Active="No"/>
+  <Project Name="Challenge_1" Path="Challenge_1/Challenge_1.project" Active="Yes"/>
   <Project Name="Challenge_1_Solution" Path="Challenge_1_Solution/Challenge_1_Solution.project" Active="No"/>
   <Project Name="Challenge_2" Path="Challenge_2/Challenge_2.project" Active="No"/>
   <Project Name="Challenge_2_Solution" Path="Challenge_2_Solution/Challenge_2_Solution.project" Active="No"/>
