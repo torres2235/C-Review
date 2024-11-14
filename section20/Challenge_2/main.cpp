@@ -57,15 +57,17 @@ void display_menu() {
 void play_current_song(const Song &song) {
     // This function should display 
     // Playing: followed by the song that is playing
-   
-    std::cout << "You implement this function"<< std::endl;
+    std::cout << "Playing: " << song << std::endl;
 }
 
 void display_playlist(const std::list<Song> &playlist, const Song &current_song) {
     // This function should display the current playlist 
     // and then the current song playing.
-    
-    std::cout << "You implement this function" << std::endl;
+    for(auto i : playlist) {
+        std::cout << i << std::endl;
+    }
+    std::cout << "Current Song: " << std::endl;
+    std::cout << current_song << std::endl;
 }
 
 int main() {
@@ -81,8 +83,65 @@ int main() {
     
     std::list<Song>::iterator current_song = playlist.begin();
     
-    std::cout << "To be implemented" << std::endl;
+    //std::cout << "To be implemented" << std::endl;
     // Your program logic goes here
+    display_playlist(playlist, *current_song);
+    char selection {};
+    std::string song_name {};
+    std::string artist_name {};
+    int rating {};
+    do {
+        display_menu();
+        selection = getchar();
+        selection = toupper(selection);
+        switch(selection) {
+            case 'F':
+                current_song = playlist.begin();
+                std::cout << "Playing First Song... " << std::endl;
+                play_current_song(*current_song);
+                break;
+            case 'N':
+                std::cout << "Playing Next Song... " << std::endl;
+                current_song++;
+                if (current_song == playlist.end()) {
+                    std::cout << "Wrapping to start of playlist" << std::endl;
+                    current_song = playlist.begin();
+                }
+                break;
+            case 'P':
+                    std::cout << "Playing previous song" << std::endl;
+                if (current_song == playlist.begin()) {
+                    std::cout << "Wrapping to end of playlist" << std::endl;
+                    current_song = playlist.end();
+                }
+                current_song--;
+                play_current_song(*current_song);
+                break;
+            case 'A':
+                std::cout << "Adding and Playing New Song..." << std::endl;
+                std::cout << "Enter Song Name: ";
+                if (std::cin.peek() == '\n' || std::cin.peek() == '\r') {  //i need this for some reason...
+                    std::cin.get();
+                }
+                std::getline(std::cin, song_name);
+                std::cout << "Enter Artist Name: ";
+                std::getline(std::cin, artist_name);
+                std::cout << "Enter Rating: ";
+                std::cin >> rating;
+                playlist.emplace(current_song, song_name, artist_name, rating);
+                current_song--;
+                play_current_song(*current_song);
+                break;
+            case 'L':
+                display_playlist(playlist, *current_song);
+                break;
+            case 'Q':
+                break;
+            default:
+                std::cout << "Invalid selection, try again." << std::endl;
+                break;
+        }
+    } while(selection != 'Q');
 
     std::cout << "Thanks for listening!" << std::endl;
     return 0;

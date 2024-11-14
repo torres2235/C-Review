@@ -6,15 +6,15 @@
 ProjectName            :=Challenge_2
 ConfigurationName      :=Debug
 WorkspaceConfiguration :=Debug
-WorkspacePath          :="G:/My Drive/VideoCourses/Beginning C++ - Complete/CPPExamples-Complete/CPPExamples/Section20"
-ProjectPath            :="G:/My Drive/VideoCourses/Beginning C++ - Complete/CPPExamples-Complete/CPPExamples/Section20/Challenge_2"
+WorkspacePath          :=C:/Users/Torre/Workspaces/CPP-Review/section20
+ProjectPath            :=C:/Users/Torre/Workspaces/CPP-Review/section20/Challenge_2
 IntermediateDirectory  :=./Debug
 OutDir                 := $(IntermediateDirectory)
 CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
-User                   :=frank
-Date                   :=18/06/2023
+User                   :=Torre
+Date                   :=13/11/2024
 CodeLitePath           :="C:/Program Files/CodeLite"
 LinkerName             :=C:/mingw64/bin/g++.exe
 SharedObjectLinkerName :=C:/mingw64/bin/g++.exe -shared -fPIC
@@ -64,7 +64,6 @@ AS       := C:/mingw64/bin/as.exe
 ## User defined environment variables
 ##
 CodeLiteDir:=C:\Program Files\CodeLite
-SHELL:=cmd.exe
 Objects0=$(IntermediateDirectory)/main.cpp$(ObjectSuffix) 
 
 
@@ -97,7 +96,7 @@ PreBuild:
 ## Objects
 ##
 $(IntermediateDirectory)/main.cpp$(ObjectSuffix): main.cpp
-	$(CXX) $(IncludePCH) $(SourceSwitch) "G:/My Drive/VideoCourses/Beginning C++ - Complete/CPPExamples-Complete/CPPExamples/Section20/Challenge_2/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "C:/Users/Torre/Workspaces/CPP-Review/section20/Challenge_2/main.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main.cpp$(ObjectSuffix) $(IncludePath)
 $(IntermediateDirectory)/main.cpp$(PreprocessSuffix): main.cpp
 	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) $(IntermediateDirectory)/main.cpp$(PreprocessSuffix) main.cpp
 
