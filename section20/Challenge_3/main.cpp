@@ -64,7 +64,18 @@ void part1() {
     std::ifstream in_file {"../words.txt"};
     if (in_file) {
         
-        // You implement this code
+        while(getline(in_file, line)) {  // read each line
+            std::stringstream s(line);  // break each line down into a stringstream
+            while(s >> word) {  // read each word from the string stream
+            word = clean_string(word);
+                auto it = words.find(word);
+                if(it != words.end()) {  // if word is in the map
+                    words.at(word) += 1;  // increment its count
+                } else {
+                    words[word] = 1;  // else add it in
+                }
+            }
+        }
         
         in_file.close();
         display_words(words);
@@ -83,6 +94,20 @@ void part2() {
     if (in_file) {
      
         // You implement this code
+        int line_count {0};
+        while(getline(in_file, line)) {  // read each line
+            line_count++;
+            std::stringstream s(line);  // break each line down into a stringstream
+            while(s >> word) {  // read each word from the string stream
+            word = clean_string(word);
+                auto it = words.find(word);
+                if(it != words.end()) {  // if word is in the map
+                    words[word].insert(line_count);
+                } else {
+                    words[word] = {line_count};
+                }
+            }
+        }
         
         in_file.close();
         display_words(words);
